@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+ul {padding: 0px;}
+
+a:visited, a:link, a:focus, a:hover, a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+.barraSuperior {background: black;}
+.barraSuperior a {color: white;}
+.backColor, .backColor a {background: #47bac1;color: white;}
+
+.redSocial {width: 30px;height: 30px;text-align: center;line-height: 30px;}
+
+.facebookBlanco {color: white;}
+.facebookNegro {color: black;}
+.facebookColor {color: white; background: #46639f;}
+
+.youtubekBlanco {color: white;}
+.youtubeNegro {color: black;}
+.youtubeColor {color: white; background: #d6513e;}
+
+.twitterBlanco {color: white;}
+.twitterNegro {color: black;}
+.twitterColor {color: white; background: #0ab2e6;}
+
+.googleBlanco {color: white;}
+.googleNegro {color: black;}
+.googleColor {color: white; background: #d71617;}
+
+.instagramBlanco {color: white;}
+.instagramNegro {color: black;}
+.instagramColor {color: white; background:linear-gradient(45deg, #fca925, #6350a2;)}
