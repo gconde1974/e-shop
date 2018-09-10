@@ -6,27 +6,27 @@
                 <ul>
                     <li>
                         <a href="http://facebook.com" target="_blank">
-                            <i class="fa fa-facebook redSocial facebookBlanco" aria-hidden="true"></i>
+                            <i class="fa fa-facebook redSocial facebookColor" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
                         <a href="http://youtube.com" target="_blank">
-                            <i class="fa fa-youtube redSocial youtubeBlanco" aria-hidden="true"></i>
+                            <i class="fa fa-youtube redSocial youtubeColor" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
                         <a href="http://twitter.com" target="_blank">
-                            <i class="fa fa-twitter redSocial twitterBlanco" aria-hidden="true"></i>
+                            <i class="fa fa-twitter redSocial twitterColor" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
                         <a href="http://google.com" target="_blank">
-                            <i class="fa fa-google redSocial googleBlanco" aria-hidden="true"></i>
+                            <i class="fa fa-google redSocial googleColor" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
                         <a href="http://instagram.com" target="_blank">
-                            <i class="fa fa-instagram redSocial instagramBlanco" aria-hidden="true"></i>
+                            <i class="fa fa-instagram redSocial instagramColor" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
@@ -73,7 +73,7 @@
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </button>
                 </a>
-                <p>Tu cesta <span class="cantidadCesta"></span><br> USD $ <span class="sumaCesta"></span></p>
+                <p>Tu cesta <span class="cantidadCesta">3</span><br> USD $ <span class="sumaCesta">180</span></p>
             </div>
         </div>
         <div class="col-xs-12 backColor" id="categorias">

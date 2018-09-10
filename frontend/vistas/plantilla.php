@@ -7,6 +7,7 @@
     <title>Tienda Virtual</title>
     <link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="vistas/css/plantilla.css">
+    <link rel="stylesheet" href="vistas/css/cabezote.css">
     <link rel="stylesheet" href="vistas/css/plugins/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet"> 
     <script src="vistas/js/plugins/jquery.min.js"></script>

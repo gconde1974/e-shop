@@ -7,7 +7,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-ul {padding: 0px;}
+ul,ol {padding: 0px;}
 
 a:visited, a:link, a:focus, a:hover, a:active {
     list-style: none;
@@ -16,9 +16,9 @@ a:visited, a:link, a:focus, a:hover, a:active {
 
 .barraSuperior {background: black;}
 .barraSuperior a {color: white;}
-.backColor, .backColor a {background: #47bac1;color: white;}
+.backColor, .backColor a {background: #6D6E72;color: white;}
 
-.redSocial {width: 30px;height: 30px;text-align: center;line-height: 30px;}
+.redSocial {width: 30px;height: 30px;text-align: center;line-height: 30px !important;}
 
 .facebookBlanco {color: white;}
 .facebookNegro {color: black;}
@@ -36,6 +36,6 @@ a:visited, a:link, a:focus, a:hover, a:active {
 .googleNegro {color: black;}
 .googleColor {color: white; background: #d71617;}
 
-.instagramBlanco {color: white;}
-.instagramNegro {color: black;}
-.instagramColor {color: white; background:linear-gradient(45deg, #fca925, #6350a2;)}
+.instagramColor {color:white;background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);}
+.instagramBlanco {color:white;}
+.instagramNegro {color:black;}
