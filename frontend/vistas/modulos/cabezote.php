@@ -4,31 +4,20 @@
             <!-- redes sociales -->
             <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
                 <ul>
-                    <li>
-                        <a href="http://facebook.com" target="_blank">
-                            <i class="fa fa-facebook redSocial facebookColor" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://youtube.com" target="_blank">
-                            <i class="fa fa-youtube redSocial youtubeColor" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://twitter.com" target="_blank">
-                            <i class="fa fa-twitter redSocial twitterColor" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://google.com" target="_blank">
-                            <i class="fa fa-google redSocial googleColor" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://instagram.com" target="_blank">
-                            <i class="fa fa-instagram redSocial instagramColor" aria-hidden="true"></i>
-                        </a>
-                    </li>
+                    <?php
+                        $social = ControladorPlantilla::ctrEstiloPlantilla();
+                        $jsonRedesSociales = json_decode($social["redesSociales"],true);
+                        foreach ($jsonRedesSociales as $key => $value) {
+                            echo '
+                                <li>
+                                    <a href="'.$value["url"].'" target="_blank">
+                                        <i class="fa '.$value["red"].' redSocial '.$value["estilo"].'" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                ';
+                        }
+                    ?>
+                   
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 social">

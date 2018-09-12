@@ -17,7 +17,7 @@ $.ajax({
 
 		$(".barraSuperior, .barraSuperior a").css({"background": barraSuperior, 
 			                                       "color": textoSuperior})
-
+		
 	}
 
 
