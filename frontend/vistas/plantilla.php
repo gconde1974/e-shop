@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tienda Virtual</title>
+    <?php
+        $icono = ControladorPlantilla::ctrEstiloPlantilla();
+        echo '<link rel="icon" href="http://localhost/e-shop/backend/'.$icono["icono"].'">';
+    ?>
+    
     <link rel="stylesheet" href="vistas/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="vistas/css/plantilla.css">
     <link rel="stylesheet" href="vistas/css/cabezote.css">
