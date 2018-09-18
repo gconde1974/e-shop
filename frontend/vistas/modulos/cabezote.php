@@ -66,6 +66,14 @@
             </div>
         </div>
         <div class="col-xs-12 backColor" id="categorias">
+            <?php
+
+            $categorias = ControladorProductos::ctrMostrarCategorias();
+
+            var_dump($categorias);
+
+
+            ?>
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
                 <h4><a href="#" class="pixelCategorias">Lorem ipsum</a></h4>
                 <hr>
